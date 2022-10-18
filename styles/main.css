@@ -524,7 +524,7 @@
   	font-weight: bold;
 
   }
-  
-.projformat1 {
-  margin: auto;
-}
+
+  .projformat1 {
+    justify-content: center;
+  }
