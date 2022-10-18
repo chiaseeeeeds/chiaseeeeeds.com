@@ -1,63 +1,79 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <title>Project Test</title>
-    <meta name="description" content="" />
+<!doctype html>
+<html lang="en">
 
-  <link rel="stylesheet" href="../../styles/main.css">
+<head>
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Apercu Pro:wght@400;700&display=swap"
-    />
-  </head>
-  <body>
-    <div class="desktop-3">
-      <div class="desktop-1" id="projectstop">
-        <div class="group-div">
-          <h1 class="projects-h1">Projects</h1>
-          <h1 class="scroll-for-the-goods" data-animate-on-scroll>
-            Scroll for the goods! (OKAY I GOT IT WORKING FOR NOW)
-          </h1>
-        </div>
-        <div class="rectangle-div" id="projectstoptext"></div>
-      </div>
-      <div class="desktop-2" id="project1">
-        <div class="group-div1">
-          <img class="rectangle-icon" alt="" src="public/rectangle-2@2x.png" />
-          <div class="group-div2">
-            <h1 class="projects-h1">Project Title #1 (to be rearranged, and check on mobile responsiveness)</h1>
-            <h1 class="scroll-for-the-goods" data-animate-on-scroll>
-              Brief Description
-            </h1>
-          </div>
-          <h3 class="more-descriptions-h3">more descriptions</h3>
-        </div>
-        <img class="rectangle-icon1" alt="" src="public/rectangle-3@2x.png" />
-        <div class="container-div" id="projectstoptext"></div>
-        <div class="container-div1" id="projectstoptext"></div>
-      </div>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description"
+    content="Chia Wei Lim is a media graduate who is interested in picking up new skills within the media industry">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>chiaseeeeeds</title>
+
+  <!-- social -->
+  <meta property="og:title" content="Chia Wei Lim">
+  <meta property="og:name" content="Chia Wei Lim" />
+  <meta property="og:description"
+    content="Chia Wei Lim is a media graduate who is interested in picking up new skills within the media industry" />
+  <meta property="og:url" content="https://chiaseeeeds.com" />
+  <meta property="og:image" content="./files/screenshot.png" <!-- build:css styles/normalize.css -->
+  <link rel="stylesheet" href="../styles/normalize.css" />
+  <!-- endbuild -->
+
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="../styles/main.css">
+  <!-- endbuild -->
+</head>
+
+<!-- new p class projdes -->
+<body>
+  <header class="about table">
+    <div class="table-cell">
+      <div class="inner clearfix">
+    <h2 class="typer">Project Name</h2>
+    <p class="projdes">Povis. Sass heteroskade. Plarad unar. 
+Bese. Okaligt. Inoligen trekopp. 
+Stenobos lågt. Scale-up mikroskapet. Ben resarat. 
+Dihugt medelcism. Krosm antenat. Nykårat trerör. 
+Fämick. Bet ovun. Vis ok. 
+Kådon ryviliga. Tetras resamma. Traskade nör. 
+Kavis saling. Serynas. Telogi. 
+Ektigt oda. Infras magoktig. Pall bening. 
+Bodara prepp. Kulig kyst. Sykrosam ekodiktisk. 
+Teomodern teligen. Tetrast sevis. Goning nyktigt.
+</p>
+
     </div>
+      </div>
+  </header>
+ 
 
-    <script>
-      const scrollAnimElements = document.querySelectorAll('[data-animate-on-scroll]');
-        const observer = new IntersectionObserver((entries) => {
-          for(const entry of entries) {
-            if (entry.isIntersecting || entry.intersectionRatio > 0) {
-              const targetElement = entry.target;
-              targetElement.classList.add("animate");
-              observer.unobserve(targetElement);
-            }
-          }
-        }, {
-          threshold: 0.15,
-        });
+  <div class="browser-height"></div>
+  <footer class="footer">
+    <center><div class="projformat1">
+      <div class="imageplaceholder">image placeholder</div>
+      <div class="projformat1textcon">
+Renas. Disänar. Antimani. 
+Pseudoaktiv. Suvyling. Robot retail. 
+Ladade. Fans. Last mile. 
+Tolig. Lolaror. Pav. 
+Multiliga. Jent. Er. 
+Begast. Des. Panynar. 
+Reredat. Rel. Sareledes. 
+Trivis. Domande. Fosa. 
+Filänögt. Orade. Jesyvis. 
+USP. Pöktig. On. 
+Dende. Positiv. Miterar. 
+Tinera. Defilig. Astroment. 
+      </div>
+    </div></center>
+    
+  </footer>
 
-        for (let i = 0; i < scrollAnimElements.length; i++) {
-          observer.observe(scrollAnimElements[i]);
-        }
-    </script>
-  </body>
+  <!-- Scripts -->
+  <script src="../scripts/jquery-1.11.0.min.js"></script>
+  <script src="../scripts/jquery.typer.js"></script>
+  <script src="../scripts/main.js"></script>
+</body>
+
 </html>
