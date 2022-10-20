@@ -502,7 +502,7 @@
   	margin-right: 1vw;
   	margin-left: auto;
   	margin-top: 2.5em;
-  	margin-bottom: 2.5em;
+  	margin-bottom: 1.25em;
   	float: none;
   	width:21em;
   	height:27.875em;
@@ -517,12 +517,12 @@
   	margin-right: auto;
   	margin-left: 0;
   	margin-top: 2.5em;
-  	margin-bottom: 2.5em;
+  	margin-bottom: 1.25em;
   	width: 10em;
   	max-height: '27.875em';
     float: none;
   	vertical-align: center;
-  	text-align: left;
+  	text-align: right;
   	word-wrap: break-word;
   	color: #18181899;
   	font-size: 1em;
@@ -546,15 +546,17 @@
   	align-content: center;
   	box-sizing: border-box;
   	width: 100vw;
+  	margin-top: 1.25em;
+  	margin-bottom: 1.25em;
   }
 
   .imageplaceholder2 {
   	display: flex;
-  	margin-top: 2.5em;
-  	margin-bottom: 2.5em;
+  	margin-top: 1.25em;
+  	margin-bottom: 1.25em;
   	float: none;
   	width:15.5em;
-  	height:25.875em;
+  	height:23.875em;
   	background-color:#E0A458;
   	position: relative;
   	align-items: center;
@@ -575,8 +577,8 @@
   .projformat3text {
 	display: inline-block;
   	margin-left: 0;
-  	margin-top: 2.5em;
-  	margin-bottom: 2.5em;
+  	margin-top: 1.25em;
+  	margin-bottom: 1.25em;
   	width: 31em;
   	max-height: '27.875em';
     float: none;
@@ -589,3 +591,81 @@
   	align-items: center;
 
   }
+
+   .projformat4 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .projformat3textcon {
+	display: inline-block;
+  	margin-top: 1.25em;
+  	margin-bottom: 1.25em;
+  	width: 10em;
+  	max-height: '27.875em';
+    float: left;
+  	vertical-align: center;
+  	text-align: left;
+  	word-wrap: break-word;
+  	color: #18181899;
+  	font-size: 1em;
+  	font-weight: bold;
+  	align-items: left;
+  }
+
+  .imageplaceholder4 {
+  	display: inline-block;
+  	margin-left: 1vw;
+  	margin-top: 1.25em;
+  	margin-bottom: 1.25em;
+  	float: none;
+  	width:21em;
+  	height:27.875em;
+  	background-color:#E0A458;
+  	position: relative;
+  	align-items: right;
+
+  }
+
+  .projformat5 {
+  	justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100vw;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+
+  }
+
+  .imageplaceholder5 {
+  	display: flex;
+  	margin-top: 1.25em;
+  	margin-bottom: 1.25em;
+  	float: none;
+  	width:15.5em;
+  	height:25.875em;
+  	background-color:#E0A458;
+  	position: relative;
+  	align-items: center;
+  	align-content: center;
+  	margin: 0.5vw;
+  }
+
+ .imageplaceholder6 {
+  	display: flex;
+  	margin-top: 1.25em;
+  	margin-bottom: 1.25em;
+  	float: none;
+  	width:15.5em;
+  	height:25.875em;
+  	background-color:#E0A458;
+  	position: relative;
+  	align-items: center;
+  	align-content: center;
+  	margin: 0.5vw;
+  }
+
