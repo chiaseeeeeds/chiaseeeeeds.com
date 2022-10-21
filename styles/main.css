@@ -692,13 +692,13 @@ body { font-family: 'circular_stdregular'; }
 .gallery {
   background: #EEE;
   width: 31.5em;
-  height: 20vw;
+  height: 20em;
 
 }
 
 .gallery-cell {
-  width: 32vw;
-  height: 20vw;
+  width: 20em;
+  height: 20em;
   margin-right: 10px;
   background: #8C8;
   counter-increment: gallery-cell;
