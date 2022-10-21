@@ -692,14 +692,14 @@ body { font-family: 'circular_stdregular'; }
 }
 .gallery {
   background: #EEE;
-  width: 40vw;
-  height: 18vw;
+  width: 50vw;
+  height: 20vw;
 
 }
 
 .gallery-cell {
-  width: 32vw;
-  height: 18vw;
+  width: 34vw;
+  height: 20vw;
   margin-right: 10px;
   background: #8C8;
   counter-increment: gallery-cell;
