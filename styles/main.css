@@ -581,7 +581,7 @@
   	margin-left: 0;
   	margin-top: 1.25em;
   	margin-bottom: 1.25em;
-  	width: 31em;
+  	width: 32em;
   	max-height: '27.875em';
     float: none;
   	vertical-align: center;
@@ -693,13 +693,13 @@ body { font-family: 'circular_stdregular'; }
 .gallery {
   background: #EEE;
   width: 50vw;
-  height: 20vw;
+  height: 18vw;
 
 }
 
 .gallery-cell {
-  width: 34vw;
-  height: 20vw;
+  width: 32vw;
+  height: 18vw;
   margin-right: 10px;
   background: #8C8;
   counter-increment: gallery-cell;
