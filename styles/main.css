@@ -679,7 +679,7 @@
 body { font-family: 'circular_stdregular'; }
 
 .flickitycon {
-	width: 50vw;
+	width: 31em;
 	display: flex;
 	align-content: center;
 	align-items: center;
@@ -691,7 +691,7 @@ body { font-family: 'circular_stdregular'; }
 }
 .gallery {
   background: #EEE;
-  width: 50vw;
+  width: 31em;
   height: 18vw;
 
 }
