@@ -494,7 +494,9 @@
   .hugecon {
   	display: flex;
   	flex-wrap: wrap;
-
+  	align-content: center;
+  	align-items: center;
+  	justify-content: center;
   }
 
   .imageplaceholder {
@@ -601,6 +603,7 @@
   }
 
   .projformat3textcon {
+	display: inline-block;
   	margin-top: 1.25em;
   	margin-bottom: 1.25em;
   	width: 10em;
@@ -668,3 +671,46 @@
   	margin: 0.5vw;
   }
 
+/* flickity external css*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: 'circular_stdregular'; }
+
+.flickitycon {
+	width: 40vw;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 1.25em;
+	margin-top: 1.25em;
+
+
+}
+.gallery {
+  background: #EEE;
+  width: 40vw;
+  height: 18vw;
+
+}
+
+.gallery-cell {
+  width: 32vw;
+  height: 18vw;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
