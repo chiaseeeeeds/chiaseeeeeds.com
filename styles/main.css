@@ -378,6 +378,26 @@
     height: 100%;
     pointer-events: none
   }
+
+.projectlink1:after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+} 
+
+.projectlink1:hover,
+.projectlink1:focus {
+  transform: translate3d(0, 0, 0)
+}
+.projectlink1 {
+    font-family: 'circular_stdregular';
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: -.035em;
+    overflow: hidden;
+}
+
+
   .project-link,
   .typer {
     font-family: 'circular_stdregular';
