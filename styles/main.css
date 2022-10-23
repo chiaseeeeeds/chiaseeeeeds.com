@@ -379,16 +379,16 @@
     pointer-events: none
   }
 
-.projectlink1:after {
+.project-link1:after {
   opacity: 1;
   transform: translate3d(-100%, 0, 0);
 } 
 
-.projectlink1:hover,
-.projectlink1:focus {
+.project-link1:hover,
+.project-link1:focus {
   transform: translate3d(0, 0, 0)
 }
-.projectlink1 {
+.project-link1 {
     font-family: 'circular_stdregular';
     font-size: 2em;
     font-weight: 600;
