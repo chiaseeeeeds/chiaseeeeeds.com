@@ -383,11 +383,11 @@
   content: '';
 	position: absolute;
 	bottom: 0;
-	left: 22vw;
+	left: 25vw;
 	width: 25%;
 	height: 0.1em;
 	background-color: #181818;
-	opacity: 0;
+	opacity: 0.6;
 	transition: opacity 300ms, transform 300ms;
 } 
 
