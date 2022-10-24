@@ -382,17 +382,17 @@
 .project-link1:after {
   content: '';
 	position: absolute;
-	bottom: 0;
-	left: 24vw;
+	bottom: -2;
+	left: 24.3vw;
 	width: 25%;
 	height: 0.1em;
 	background-color: #181818;
-	opacity: 0.6;
+	opacity: 0.3;
 	transition: opacity 300ms, transform 300ms;
 } 
 
 .project-link1:hover::after {
-  opacity: 1;
+  opacity: 0.6;
 	transform: translate3d(0, 0.2em, 0);
 }
 .project-link1:focus::after {
@@ -660,7 +660,7 @@
   	margin-bottom: 1.25em;
   	float: none;
   	width:21em;
-  	height:27.875em;
+  	height:21em;
   	background-color:#E0A458;
   	position: relative;
   	align-items: right;
@@ -684,7 +684,7 @@
   	margin-bottom: 1.25em;
   	float: none;
   	width:15.5em;
-  	height:25.875em;
+  	height:15.5em;
   	background-color:#E0A458;
   	position: relative;
   	align-items: center;
@@ -698,7 +698,7 @@
   	margin-bottom: 1.25em;
   	float: none;
   	width:15.5em;
-  	height:25.875em;
+  	height:15.5em;
   	background-color:#E0A458;
   	position: relative;
   	align-items: center;
